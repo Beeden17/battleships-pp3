@@ -41,7 +41,10 @@ class BattleshipGame:
 
     def user_play(self):
         # Function for user's turn
-        print("Welcome to Battleships! Your grid:")
+        print("Welcome to Battleships!")
+        print("_______________________")
+        print("Sink all the computer's ships before yours are found to win!")
+        print("____________________________________________________________")
         # Print user's grid
         self.print_grids()
         # Loop until all computer ships are defeated
